@@ -1,0 +1,63 @@
+
+      body* {
+        margin: 1px;
+        padding: 2px;
+        box-sizing: border-box; 
+      }
+ 
+      /* body { font: 13px Helvetica, Arial; }*/
+       form {
+        background: white;
+        padding: 5px;
+        position: fixed;
+        bottom: 200px;
+        width: 50%;
+        margin-left: 320px;
+       }
+       form input {
+        /*border: 0;*/
+        padding: 10px;
+        width: 40%;
+        height: 2%;
+        margin-right: .6%;
+       }
+       form button {
+        width: 9%;
+        background: rgb(130, 224, 255);
+        border: none;
+        padding: 10px;
+        margin-right: -45px;
+        }
+       #messages {
+        list-style-type: none;
+        margin: 0;
+        padding: 0; 
+        }
+       #messages li {
+       padding: 0px 1px;
+       border-radius: 20px;
+       padding: 8px; 
+       height: 30px;
+       width: 340px;
+ 
+      }
+       #messages{
+         padding-top: 40px;
+        margin-left: 30.5em
+       }
+       #messages li:nth-child(odd) { 
+         background:skyblue;
+         background-image: ("fb.png"); 
+       }
+       #mess{
+         
+         max-height: 300px;
+         /*overflow-y: auto;*/
+         overflow-x : auto;
+         width: 850px;
+         margin-right: 300px;
+         margin-left: 25px;
+       }
+       #m{
+         margin-right: 5px;
+       }

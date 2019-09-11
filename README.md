@@ -1,29 +1,13 @@
-# firstapp
+# chat-example
 
-## Project setup
-```
-npm install
-```
+This is the source code for a very simple chat example used for
+the [Getting Started](http://socket.io/get-started/chat/) guide
+of the Socket.IO website.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Please refer to it to learn how to run this application.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+You can also spin up a free Heroku dyno to test it out:
 
-### Run your tests
-```
-npm run test
-```
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/socketio/chat-example)
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Besides, the application is deployed on [Now](https://zeit.co/now): https://socketio-chat-example.now.sh/
